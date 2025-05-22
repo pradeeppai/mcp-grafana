@@ -1,4 +1,5 @@
 # Grafana MCP server
+[![smithery badge](https://smithery.ai/badge/@pradeeppai/mcp-grafana)](https://smithery.ai/server/@pradeeppai/mcp-grafana)
 
 A [Model Context Protocol][mcp] (MCP) server for Grafana.
 
@@ -107,6 +108,14 @@ the OnCall tools, use `--disable-oncall`.
 
 2. You have several options to install `mcp-grafana`:
 
+   - **Installing via Smithery**
+
+     To install mcp-grafana for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@pradeeppai/mcp-grafana):
+
+     ```bash
+     npx -y @smithery/cli install @pradeeppai/mcp-grafana --client claude
+     ```
+     
    - **Docker image**: Use the pre-built Docker image from Docker Hub:
 
      ```bash
@@ -327,3 +336,4 @@ This project is licensed under the [Apache License, Version 2.0](LICENSE).
 
 [mcp]: https://modelcontextprotocol.io/
 [service-account]: https://grafana.com/docs/grafana/latest/administration/service-accounts/
+
